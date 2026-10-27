@@ -1,0 +1,9 @@
+{
+  "name": "vale-do-cariri-online",
+  "version": "0.1.0",
+  "description": "Servidor de salas do jogo de investigação Vale do Cariri",
+  "main": "server.js",
+  "scripts": { "start": "node server.js", "test": "node teste_online.js" },
+  "engines": { "node": ">=18" },
+  "dependencies": { "ws": "^8.18.0" }
+}
